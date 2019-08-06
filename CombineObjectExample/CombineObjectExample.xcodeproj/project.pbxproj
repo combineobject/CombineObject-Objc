@@ -29,13 +29,13 @@
 		5D00D67122F9108300F64307 /* CombineWeakView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D00D66122F9108300F64307 /* CombineWeakView.h */; };
 		5D00D67222F9108300F64307 /* NSObject+CombineBind.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D00D66222F9108300F64307 /* NSObject+CombineBind.m */; };
 		5D00D67322F9108300F64307 /* CombineBind.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D00D66322F9108300F64307 /* CombineBind.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D00D67B22F91D0300F64307 /* CombineCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D00D67A22F91D0300F64307 /* CombineCustomViewController.m */; };
-		5D00D67E22F9204600F64307 /* CombineProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D00D67D22F9204600F64307 /* CombineProgressViewController.m */; };
-		5DB58DF522F82C9400EB2759 /* CombineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB58DF422F82C9400EB2759 /* CombineViewController.m */; };
-		5DDDAE4722F929BB00525CDA /* CombineTextFiledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDDAE4622F929BB00525CDA /* CombineTextFiledViewController.m */; };
-		5DDDAE4A22F92D1F00525CDA /* CombineSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDDAE4922F92D1F00525CDA /* CombineSliderViewController.m */; };
-		5DDDAE4D22F92FE800525CDA /* CombineSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDDAE4C22F92FE800525CDA /* CombineSwitchViewController.m */; };
-		5DDDAE5022F9321A00525CDA /* CombineTextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDDAE4F22F9321A00525CDA /* CombineTextViewViewController.m */; };
+		5D60F6B222F9639E003810E7 /* CombineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60F6A422F9639E003810E7 /* CombineViewController.m */; };
+		5D60F6B322F9639E003810E7 /* CombineTextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60F6A622F9639E003810E7 /* CombineTextViewViewController.m */; };
+		5D60F6B422F9639E003810E7 /* CombineTextFiledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60F6AA22F9639E003810E7 /* CombineTextFiledViewController.m */; };
+		5D60F6B522F9639E003810E7 /* CombineSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60F6AC22F9639E003810E7 /* CombineSliderViewController.m */; };
+		5D60F6B622F9639E003810E7 /* CombineCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60F6AE22F9639E003810E7 /* CombineCustomViewController.m */; };
+		5D60F6B722F9639E003810E7 /* CombineSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60F6AF22F9639E003810E7 /* CombineSwitchViewController.m */; };
+		5D60F6B822F9639E003810E7 /* CombineProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60F6B022F9639E003810E7 /* CombineProgressViewController.m */; };
 		BBAF470BCF05A8E0A1A5A601 /* libPods-CombineObjectExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6B3377334A8943F5AD972F /* libPods-CombineObjectExample.a */; };
 /* End PBXBuildFile section */
 
@@ -71,20 +71,20 @@
 		5D00D66122F9108300F64307 /* CombineWeakView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CombineWeakView.h; path = "../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/Sources/CombineObject/CombineWeakView.h"; sourceTree = "<group>"; };
 		5D00D66222F9108300F64307 /* NSObject+CombineBind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CombineBind.m"; path = "../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/Sources/CombineObject/NSObject+CombineBind.m"; sourceTree = "<group>"; };
 		5D00D66322F9108300F64307 /* CombineBind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CombineBind.h; path = "../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/Sources/CombineObject/CombineBind.h"; sourceTree = "<group>"; };
-		5D00D67922F91D0300F64307 /* CombineCustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CombineCustomViewController.h; path = "../../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/CombineObjectExample/CombineObjectExample/Controllers/CombineCustomViewController.h"; sourceTree = "<group>"; };
-		5D00D67A22F91D0300F64307 /* CombineCustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CombineCustomViewController.m; path = "../../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/CombineObjectExample/CombineObjectExample/Controllers/CombineCustomViewController.m"; sourceTree = "<group>"; };
-		5D00D67C22F9204600F64307 /* CombineProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CombineProgressViewController.h; path = "../../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/CombineObjectExample/CombineObjectExample/Controllers/CombineProgressViewController.h"; sourceTree = "<group>"; };
-		5D00D67D22F9204600F64307 /* CombineProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CombineProgressViewController.m; path = "../../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/CombineObjectExample/CombineObjectExample/Controllers/CombineProgressViewController.m"; sourceTree = "<group>"; };
-		5DB58DF322F82C9400EB2759 /* CombineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CombineViewController.h; path = "../../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/CombineObjectExample/CombineObjectExample/Controllers/CombineViewController.h"; sourceTree = "<group>"; };
-		5DB58DF422F82C9400EB2759 /* CombineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CombineViewController.m; path = "../../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/CombineObjectExample/CombineObjectExample/Controllers/CombineViewController.m"; sourceTree = "<group>"; };
-		5DDDAE4522F929BB00525CDA /* CombineTextFiledViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CombineTextFiledViewController.h; path = "../../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/CombineObjectExample/CombineObjectExample/Controllers/CombineTextFiledViewController.h"; sourceTree = "<group>"; };
-		5DDDAE4622F929BB00525CDA /* CombineTextFiledViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CombineTextFiledViewController.m; path = "../../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/CombineObjectExample/CombineObjectExample/Controllers/CombineTextFiledViewController.m"; sourceTree = "<group>"; };
-		5DDDAE4822F92D1F00525CDA /* CombineSliderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CombineSliderViewController.h; path = "../../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/CombineObjectExample/CombineObjectExample/Controllers/CombineSliderViewController.h"; sourceTree = "<group>"; };
-		5DDDAE4922F92D1F00525CDA /* CombineSliderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CombineSliderViewController.m; path = "../../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/CombineObjectExample/CombineObjectExample/Controllers/CombineSliderViewController.m"; sourceTree = "<group>"; };
-		5DDDAE4B22F92FE800525CDA /* CombineSwitchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CombineSwitchViewController.h; path = "../../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/CombineObjectExample/CombineObjectExample/Controllers/CombineSwitchViewController.h"; sourceTree = "<group>"; };
-		5DDDAE4C22F92FE800525CDA /* CombineSwitchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CombineSwitchViewController.m; path = "../../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/CombineObjectExample/CombineObjectExample/Controllers/CombineSwitchViewController.m"; sourceTree = "<group>"; };
-		5DDDAE4E22F9321A00525CDA /* CombineTextViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CombineTextViewViewController.h; path = "../../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/CombineObjectExample/CombineObjectExample/Controllers/CombineTextViewViewController.h"; sourceTree = "<group>"; };
-		5DDDAE4F22F9321A00525CDA /* CombineTextViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CombineTextViewViewController.m; path = "../../../../../../../../../System/Volumes/Data/Users/zhangxing/Documents/Gitlab/Github/CombineObject-Objc/CombineObjectExample/CombineObjectExample/Controllers/CombineTextViewViewController.m"; sourceTree = "<group>"; };
+		5D60F6A422F9639E003810E7 /* CombineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombineViewController.m; sourceTree = "<group>"; };
+		5D60F6A522F9639E003810E7 /* CombineSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombineSliderViewController.h; sourceTree = "<group>"; };
+		5D60F6A622F9639E003810E7 /* CombineTextViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombineTextViewViewController.m; sourceTree = "<group>"; };
+		5D60F6A722F9639E003810E7 /* CombineCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombineCustomViewController.h; sourceTree = "<group>"; };
+		5D60F6A822F9639E003810E7 /* CombineProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombineProgressViewController.h; sourceTree = "<group>"; };
+		5D60F6A922F9639E003810E7 /* CombineSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombineSwitchViewController.h; sourceTree = "<group>"; };
+		5D60F6AA22F9639E003810E7 /* CombineTextFiledViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombineTextFiledViewController.m; sourceTree = "<group>"; };
+		5D60F6AB22F9639E003810E7 /* CombineTextViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombineTextViewViewController.h; sourceTree = "<group>"; };
+		5D60F6AC22F9639E003810E7 /* CombineSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombineSliderViewController.m; sourceTree = "<group>"; };
+		5D60F6AD22F9639E003810E7 /* CombineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombineViewController.h; sourceTree = "<group>"; };
+		5D60F6AE22F9639E003810E7 /* CombineCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombineCustomViewController.m; sourceTree = "<group>"; };
+		5D60F6AF22F9639E003810E7 /* CombineSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombineSwitchViewController.m; sourceTree = "<group>"; };
+		5D60F6B022F9639E003810E7 /* CombineProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombineProgressViewController.m; sourceTree = "<group>"; };
+		5D60F6B122F9639E003810E7 /* CombineTextFiledViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombineTextFiledViewController.h; sourceTree = "<group>"; };
 		CF6B3377334A8943F5AD972F /* libPods-CombineObjectExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CombineObjectExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,7 +130,7 @@
 		5D00D62322F828A200F64307 /* CombineObjectExample */ = {
 			isa = PBXGroup;
 			children = (
-				5DB58DF222F82C6800EB2759 /* Controllers */,
+				5D60F6A322F9639E003810E7 /* Controllers */,
 				5D00D62422F828A200F64307 /* AppDelegate.h */,
 				5D00D62522F828A200F64307 /* AppDelegate.m */,
 				5D00D62722F828A200F64307 /* ViewController.h */,
@@ -168,23 +168,23 @@
 			path = CombineObject;
 			sourceTree = "<group>";
 		};
-		5DB58DF222F82C6800EB2759 /* Controllers */ = {
+		5D60F6A322F9639E003810E7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5DB58DF322F82C9400EB2759 /* CombineViewController.h */,
-				5DB58DF422F82C9400EB2759 /* CombineViewController.m */,
-				5D00D67922F91D0300F64307 /* CombineCustomViewController.h */,
-				5D00D67A22F91D0300F64307 /* CombineCustomViewController.m */,
-				5D00D67C22F9204600F64307 /* CombineProgressViewController.h */,
-				5D00D67D22F9204600F64307 /* CombineProgressViewController.m */,
-				5DDDAE4522F929BB00525CDA /* CombineTextFiledViewController.h */,
-				5DDDAE4622F929BB00525CDA /* CombineTextFiledViewController.m */,
-				5DDDAE4822F92D1F00525CDA /* CombineSliderViewController.h */,
-				5DDDAE4922F92D1F00525CDA /* CombineSliderViewController.m */,
-				5DDDAE4B22F92FE800525CDA /* CombineSwitchViewController.h */,
-				5DDDAE4C22F92FE800525CDA /* CombineSwitchViewController.m */,
-				5DDDAE4E22F9321A00525CDA /* CombineTextViewViewController.h */,
-				5DDDAE4F22F9321A00525CDA /* CombineTextViewViewController.m */,
+				5D60F6A422F9639E003810E7 /* CombineViewController.m */,
+				5D60F6A522F9639E003810E7 /* CombineSliderViewController.h */,
+				5D60F6A622F9639E003810E7 /* CombineTextViewViewController.m */,
+				5D60F6A722F9639E003810E7 /* CombineCustomViewController.h */,
+				5D60F6A822F9639E003810E7 /* CombineProgressViewController.h */,
+				5D60F6A922F9639E003810E7 /* CombineSwitchViewController.h */,
+				5D60F6AA22F9639E003810E7 /* CombineTextFiledViewController.m */,
+				5D60F6AB22F9639E003810E7 /* CombineTextViewViewController.h */,
+				5D60F6AC22F9639E003810E7 /* CombineSliderViewController.m */,
+				5D60F6AD22F9639E003810E7 /* CombineViewController.h */,
+				5D60F6AE22F9639E003810E7 /* CombineCustomViewController.m */,
+				5D60F6AF22F9639E003810E7 /* CombineSwitchViewController.m */,
+				5D60F6B022F9639E003810E7 /* CombineProgressViewController.m */,
+				5D60F6B122F9639E003810E7 /* CombineTextFiledViewController.h */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -348,15 +348,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D00D62922F828A200F64307 /* ViewController.m in Sources */,
-				5D00D67E22F9204600F64307 /* CombineProgressViewController.m in Sources */,
-				5D00D67B22F91D0300F64307 /* CombineCustomViewController.m in Sources */,
+				5D60F6B522F9639E003810E7 /* CombineSliderViewController.m in Sources */,
 				5D00D63422F828A600F64307 /* main.m in Sources */,
-				5DDDAE4D22F92FE800525CDA /* CombineSwitchViewController.m in Sources */,
-				5DDDAE4722F929BB00525CDA /* CombineTextFiledViewController.m in Sources */,
-				5DB58DF522F82C9400EB2759 /* CombineViewController.m in Sources */,
+				5D60F6B222F9639E003810E7 /* CombineViewController.m in Sources */,
+				5D60F6B722F9639E003810E7 /* CombineSwitchViewController.m in Sources */,
+				5D60F6B322F9639E003810E7 /* CombineTextViewViewController.m in Sources */,
+				5D60F6B422F9639E003810E7 /* CombineTextFiledViewController.m in Sources */,
+				5D60F6B822F9639E003810E7 /* CombineProgressViewController.m in Sources */,
 				5D00D62622F828A200F64307 /* AppDelegate.m in Sources */,
-				5DDDAE5022F9321A00525CDA /* CombineTextViewViewController.m in Sources */,
-				5DDDAE4A22F92D1F00525CDA /* CombineSliderViewController.m in Sources */,
+				5D60F6B622F9639E003810E7 /* CombineCustomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
