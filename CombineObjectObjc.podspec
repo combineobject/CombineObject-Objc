@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name         = "CombineObjectObjc"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "CombineObject 响应式框架的 Objective-C 版本"
   spec.homepage     = "https://github.com/combineobject/CombineObject-Objc"
   spec.license      = "MIT"
