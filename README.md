@@ -83,7 +83,7 @@ self.displayViewBackgroundColor.bind.contentChanged = ^(id<CombineValue>  _Nonnu
 
 > 监听输入框的内容
 
-![2019-08-06 11-34-01.2019-08-06 11_34_27]images(/2019-08-06 11-34-01.2019-08-06 11_34_27.gif)
+![2019-08-06 11-34-01.2019-08-06 11_34_27](images/2019-08-06 11-34-01.2019-08-06 11_34_27.gif)
 
 ### Example5
 
