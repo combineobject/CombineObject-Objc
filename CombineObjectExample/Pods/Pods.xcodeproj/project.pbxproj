@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B850C43FF3C6890C6180AF07AF290F /* CombineObjectObjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6ADF490A6F5673B6E32D7767F6B4FD /* CombineObjectObjc-dummy.m */; };
+		0C6643626A752BE64AFBCE6DCBF8E232 /* Pods-CombineObjectExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA83B7DAFF3DC5DB33B2B0313528DB1 /* Pods-CombineObjectExample-dummy.m */; };
+		14DEB67F02F273954E5A268662AC65DD /* CombineWeakView.m in Sources */ = {isa = PBXBuildFile; fileRef = 701565CCDB9461E5338974F3145AA335 /* CombineWeakView.m */; };
+		3381A3CD42C977B825D80C5557E0DD16 /* CombineKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 97697D516C94CA45F73DF53BAB1EA1D8 /* CombineKey.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		376BCE631380EFAC030A4A7ADB7971B7 /* CombineValue.h in Headers */ = {isa = PBXBuildFile; fileRef = A896176137B8A67B482DA20F913DE747 /* CombineValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D5C030A29909A463148B8599075AB6D /* NSObject+CombineBind.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E815E693A43202EB0BE2C52DF76022 /* NSObject+CombineBind.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41124A522AEF47A1165193C83355FBD6 /* CombineBind.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA77344CF88098CE33CF36E78499949 /* CombineBind.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56D4B2819F106169D44DD5DF41A64DA7 /* CombineWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5452C09C859980330679438F75340BC3 /* CombineWeakValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C4BBC0644D4E4BAD38DC93F46590868 /* CombineView+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FCDB7AEF6F9BB457DF53E1FAC95A1E /* CombineView+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		614D92EE8033C5981C4E40206F52E5EE /* CombineWeakView.h in Headers */ = {isa = PBXBuildFile; fileRef = C267EC1590DCA330B1B8452C68DE56D7 /* CombineWeakView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86DF40A5D28D6B5A1F158D2F597F5042 /* CombineKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 3013ABC5291620E7D532A688F5AFAAF1 /* CombineKey.m */; };
+		876CBDA32FC20A4D9D74C0CD0F0AC73C /* CombineBind.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A18062DB85F3EB886B22CE36DBEF403 /* CombineBind.m */; };
+		8EB75D4D9B4868C7521232EC53A4B4C1 /* CombineValue+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8555ADBBB36275FD444C37D422B4EB /* CombineValue+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91843720E63A419EDAD7B6CADF3C895C /* CombineValue+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F82A43E99B9076D7855549E6B3E48094 /* CombineValue+Category.m */; };
+		9219BDF613E5CB166AF6087697EA5DD3 /* NSObject+CombineBind.m in Sources */ = {isa = PBXBuildFile; fileRef = 353C7E3808C3EF9227F60303A97E9737 /* NSObject+CombineBind.m */; };
+		D1A32038E3C9CAC9A4580C9698319D3E /* CombineView.h in Headers */ = {isa = PBXBuildFile; fileRef = E9A365AD2ABE5F06D2D2A071CE87F565 /* CombineView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F451F135F1BC5FAA3113DA123A964530 /* CombineView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B72710DE00D601132A1E155D56C95 /* CombineView+Category.m */; };
+		FDB6E757380235CE161C44832C8C6EE3 /* CombineWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870DB37DCD624C6FD2B2716E77276DA /* CombineWeakValue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6582C2B6FD5840CC71C3BC4561A90CBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6180F1D18DB4226C3C1896FBB28A1D76;
+			remoteInfo = CombineObjectObjc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0870DB37DCD624C6FD2B2716E77276DA /* CombineWeakValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CombineWeakValue.m; path = Sources/CombineObject/CombineWeakValue.m; sourceTree = "<group>"; };
+		19CEB7052D8C5C9DE294797E7EB9D7BB /* Pods-CombineObjectExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineObjectExample.release.xcconfig"; sourceTree = "<group>"; };
+		1BA83B7DAFF3DC5DB33B2B0313528DB1 /* Pods-CombineObjectExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CombineObjectExample-dummy.m"; sourceTree = "<group>"; };
+		1BDEA5C2CF963CD1DDB9D290A0F7BBE7 /* Pods-CombineObjectExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CombineObjectExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F6ADF490A6F5673B6E32D7767F6B4FD /* CombineObjectObjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CombineObjectObjc-dummy.m"; sourceTree = "<group>"; };
+		3013ABC5291620E7D532A688F5AFAAF1 /* CombineKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CombineKey.m; path = Sources/CombineObject/CombineKey.m; sourceTree = "<group>"; };
+		353C7E3808C3EF9227F60303A97E9737 /* NSObject+CombineBind.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CombineBind.m"; path = "Sources/CombineObject/NSObject+CombineBind.m"; sourceTree = "<group>"; };
+		3A18062DB85F3EB886B22CE36DBEF403 /* CombineBind.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CombineBind.m; path = Sources/CombineObject/CombineBind.m; sourceTree = "<group>"; };
+		41A3473DC9A902F1D13410C00ADB69D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4E02484F616EC6D5A575F190131C4287 /* Pods-CombineObjectExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineObjectExample.debug.xcconfig"; sourceTree = "<group>"; };
+		5452C09C859980330679438F75340BC3 /* CombineWeakValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CombineWeakValue.h; path = Sources/CombineObject/CombineWeakValue.h; sourceTree = "<group>"; };
+		701565CCDB9461E5338974F3145AA335 /* CombineWeakView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CombineWeakView.m; path = Sources/CombineObject/CombineWeakView.m; sourceTree = "<group>"; };
+		7B8555ADBBB36275FD444C37D422B4EB /* CombineValue+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CombineValue+Category.h"; path = "Sources/CombineObject/CombineValue+Category.h"; sourceTree = "<group>"; };
+		97697D516C94CA45F73DF53BAB1EA1D8 /* CombineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CombineKey.h; path = Sources/CombineObject/CombineKey.h; sourceTree = "<group>"; };
+		9C6E99B0C40B24BF2DDF4FC57F428DC2 /* libCombineObjectObjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCombineObjectObjc.a; path = libCombineObjectObjc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A896176137B8A67B482DA20F913DE747 /* CombineValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CombineValue.h; path = Sources/CombineObject/CombineValue.h; sourceTree = "<group>"; };
+		C267EC1590DCA330B1B8452C68DE56D7 /* CombineWeakView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CombineWeakView.h; path = Sources/CombineObject/CombineWeakView.h; sourceTree = "<group>"; };
+		DBC052655415220A19895258BD39746A /* Pods-CombineObjectExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CombineObjectExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DCE33F68847C5116FF4A1A743F65D7F1 /* CombineObjectObjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CombineObjectObjc-prefix.pch"; sourceTree = "<group>"; };
+		E9A365AD2ABE5F06D2D2A071CE87F565 /* CombineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CombineView.h; path = Sources/CombineObject/CombineView.h; sourceTree = "<group>"; };
+		E9E815E693A43202EB0BE2C52DF76022 /* NSObject+CombineBind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+CombineBind.h"; path = "Sources/CombineObject/NSObject+CombineBind.h"; sourceTree = "<group>"; };
+		EEA77344CF88098CE33CF36E78499949 /* CombineBind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CombineBind.h; path = Sources/CombineObject/CombineBind.h; sourceTree = "<group>"; };
+		F53C299C59794CB936E350E0E2CD0968 /* CombineObjectObjc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CombineObjectObjc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F7FCDB7AEF6F9BB457DF53E1FAC95A1E /* CombineView+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CombineView+Category.h"; path = "Sources/CombineObject/CombineView+Category.h"; sourceTree = "<group>"; };
+		F82A43E99B9076D7855549E6B3E48094 /* CombineValue+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CombineValue+Category.m"; path = "Sources/CombineObject/CombineValue+Category.m"; sourceTree = "<group>"; };
+		FC080017266966328D3BDB476FA26672 /* CombineObjectObjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CombineObjectObjc.xcconfig; sourceTree = "<group>"; };
+		FC0CEB45454715CA456E64985A8455AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FDFD241BAFD623040344A613ADEA1C73 /* libPods-CombineObjectExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CombineObjectExample.a"; path = "libPods-CombineObjectExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0B72710DE00D601132A1E155D56C95 /* CombineView+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CombineView+Category.m"; path = "Sources/CombineObject/CombineView+Category.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC818279616E3A599A1897CD576E4315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAA0FB1ADC85BB76BCECD293737E62B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27DE2E3CBB2399C970E3BCCD879D8537 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				848116AD861CB64CA004EFEF9993C1CE /* CombineObjectObjc */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		57C302545B8FC54965D3717F08028F02 /* Pods-CombineObjectExample */ = {
+			isa = PBXGroup;
+			children = (
+				DBC052655415220A19895258BD39746A /* Pods-CombineObjectExample-acknowledgements.markdown */,
+				1BDEA5C2CF963CD1DDB9D290A0F7BBE7 /* Pods-CombineObjectExample-acknowledgements.plist */,
+				1BA83B7DAFF3DC5DB33B2B0313528DB1 /* Pods-CombineObjectExample-dummy.m */,
+				4E02484F616EC6D5A575F190131C4287 /* Pods-CombineObjectExample.debug.xcconfig */,
+				19CEB7052D8C5C9DE294797E7EB9D7BB /* Pods-CombineObjectExample.release.xcconfig */,
+			);
+			name = "Pods-CombineObjectExample";
+			path = "Target Support Files/Pods-CombineObjectExample";
+			sourceTree = "<group>";
+		};
+		637D919F06B85DB4FC6643ACB204382B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC080017266966328D3BDB476FA26672 /* CombineObjectObjc.xcconfig */,
+				2F6ADF490A6F5673B6E32D7767F6B4FD /* CombineObjectObjc-dummy.m */,
+				DCE33F68847C5116FF4A1A743F65D7F1 /* CombineObjectObjc-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "CombineObjectExample/Pods/Target Support Files/CombineObjectObjc";
+			sourceTree = "<group>";
+		};
+		6ADC0D7770F30A06D77CF3E29BC57734 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F53C299C59794CB936E350E0E2CD0968 /* CombineObjectObjc.podspec */,
+				FC0CEB45454715CA456E64985A8455AC /* LICENSE */,
+				41A3473DC9A902F1D13410C00ADB69D9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		848116AD861CB64CA004EFEF9993C1CE /* CombineObjectObjc */ = {
+			isa = PBXGroup;
+			children = (
+				EEA77344CF88098CE33CF36E78499949 /* CombineBind.h */,
+				3A18062DB85F3EB886B22CE36DBEF403 /* CombineBind.m */,
+				97697D516C94CA45F73DF53BAB1EA1D8 /* CombineKey.h */,
+				3013ABC5291620E7D532A688F5AFAAF1 /* CombineKey.m */,
+				A896176137B8A67B482DA20F913DE747 /* CombineValue.h */,
+				7B8555ADBBB36275FD444C37D422B4EB /* CombineValue+Category.h */,
+				F82A43E99B9076D7855549E6B3E48094 /* CombineValue+Category.m */,
+				E9A365AD2ABE5F06D2D2A071CE87F565 /* CombineView.h */,
+				F7FCDB7AEF6F9BB457DF53E1FAC95A1E /* CombineView+Category.h */,
+				FE0B72710DE00D601132A1E155D56C95 /* CombineView+Category.m */,
+				5452C09C859980330679438F75340BC3 /* CombineWeakValue.h */,
+				0870DB37DCD624C6FD2B2716E77276DA /* CombineWeakValue.m */,
+				C267EC1590DCA330B1B8452C68DE56D7 /* CombineWeakView.h */,
+				701565CCDB9461E5338974F3145AA335 /* CombineWeakView.m */,
+				E9E815E693A43202EB0BE2C52DF76022 /* NSObject+CombineBind.h */,
+				353C7E3808C3EF9227F60303A97E9737 /* NSObject+CombineBind.m */,
+				6ADC0D7770F30A06D77CF3E29BC57734 /* Pod */,
+				637D919F06B85DB4FC6643ACB204382B /* Support Files */,
+			);
+			name = CombineObjectObjc;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BCC4743AC7B914A749BB59821D8A7BE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C6E99B0C40B24BF2DDF4FC57F428DC2 /* libCombineObjectObjc.a */,
+				FDFD241BAFD623040344A613ADEA1C73 /* libPods-CombineObjectExample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8FB28992B6B23D90A4C1D209DB97506 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57C302545B8FC54965D3717F08028F02 /* Pods-CombineObjectExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				27DE2E3CBB2399C970E3BCCD879D8537 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				BCC4743AC7B914A749BB59821D8A7BE6 /* Products */,
+				C8FB28992B6B23D90A4C1D209DB97506 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05509E75C4D575BFB73A237E2A8BE15C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9795E0E59BE696E6C78AC4170CDB2D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41124A522AEF47A1165193C83355FBD6 /* CombineBind.h in Headers */,
+				3381A3CD42C977B825D80C5557E0DD16 /* CombineKey.h in Headers */,
+				8EB75D4D9B4868C7521232EC53A4B4C1 /* CombineValue+Category.h in Headers */,
+				376BCE631380EFAC030A4A7ADB7971B7 /* CombineValue.h in Headers */,
+				5C4BBC0644D4E4BAD38DC93F46590868 /* CombineView+Category.h in Headers */,
+				D1A32038E3C9CAC9A4580C9698319D3E /* CombineView.h in Headers */,
+				56D4B2819F106169D44DD5DF41A64DA7 /* CombineWeakValue.h in Headers */,
+				614D92EE8033C5981C4E40206F52E5EE /* CombineWeakView.h in Headers */,
+				3D5C030A29909A463148B8599075AB6D /* NSObject+CombineBind.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6180F1D18DB4226C3C1896FBB28A1D76 /* CombineObjectObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0CF4DE2F885A7E676E748F7FC95550F /* Build configuration list for PBXNativeTarget "CombineObjectObjc" */;
+			buildPhases = (
+				A9795E0E59BE696E6C78AC4170CDB2D4 /* Headers */,
+				CA770D5A755461B654E29D50E29DCEBB /* Sources */,
+				CC818279616E3A599A1897CD576E4315 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CombineObjectObjc;
+			productName = CombineObjectObjc;
+			productReference = 9C6E99B0C40B24BF2DDF4FC57F428DC2 /* libCombineObjectObjc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F5421FD3E58E6CF247DDE51AD77202A1 /* Pods-CombineObjectExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C18D1B76E3C115167B3FFE55EEB7D6 /* Build configuration list for PBXNativeTarget "Pods-CombineObjectExample" */;
+			buildPhases = (
+				05509E75C4D575BFB73A237E2A8BE15C /* Headers */,
+				B8ECE5DC5A0F8EEBC487C4AFA6C77164 /* Sources */,
+				EFAA0FB1ADC85BB76BCECD293737E62B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA2DEAAD5B4D09EF5D0EDE9898E0A7E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-CombineObjectExample";
+			productName = "Pods-CombineObjectExample";
+			productReference = FDFD241BAFD623040344A613ADEA1C73 /* libPods-CombineObjectExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BCC4743AC7B914A749BB59821D8A7BE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6180F1D18DB4226C3C1896FBB28A1D76 /* CombineObjectObjc */,
+				F5421FD3E58E6CF247DDE51AD77202A1 /* Pods-CombineObjectExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8ECE5DC5A0F8EEBC487C4AFA6C77164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6643626A752BE64AFBCE6DCBF8E232 /* Pods-CombineObjectExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA770D5A755461B654E29D50E29DCEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876CBDA32FC20A4D9D74C0CD0F0AC73C /* CombineBind.m in Sources */,
+				86DF40A5D28D6B5A1F158D2F597F5042 /* CombineKey.m in Sources */,
+				06B850C43FF3C6890C6180AF07AF290F /* CombineObjectObjc-dummy.m in Sources */,
+				91843720E63A419EDAD7B6CADF3C895C /* CombineValue+Category.m in Sources */,
+				F451F135F1BC5FAA3113DA123A964530 /* CombineView+Category.m in Sources */,
+				FDB6E757380235CE161C44832C8C6EE3 /* CombineWeakValue.m in Sources */,
+				14DEB67F02F273954E5A268662AC65DD /* CombineWeakView.m in Sources */,
+				9219BDF613E5CB166AF6087697EA5DD3 /* NSObject+CombineBind.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA2DEAAD5B4D09EF5D0EDE9898E0A7E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CombineObjectObjc;
+			target = 6180F1D18DB4226C3C1896FBB28A1D76 /* CombineObjectObjc */;
+			targetProxy = 6582C2B6FD5840CC71C3BC4561A90CBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01046929C8B03FAC4A0CDA2B6F559577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC080017266966328D3BDB476FA26672 /* CombineObjectObjc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CombineObjectObjc/CombineObjectObjc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CombineObjectObjc;
+				PRODUCT_NAME = CombineObjectObjc;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CEE62ED7E37E8A3E9220A7D1973C934A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CEB7052D8C5C9DE294797E7EB9D7BB /* Pods-CombineObjectExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE835DB3FFB55BE2B79E898131C5A8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC080017266966328D3BDB476FA26672 /* CombineObjectObjc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CombineObjectObjc/CombineObjectObjc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CombineObjectObjc;
+				PRODUCT_NAME = CombineObjectObjc;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9ADC8AF7EFC6C7D475D3E06BD891F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E02484F616EC6D5A575F190131C4287 /* Pods-CombineObjectExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C18D1B76E3C115167B3FFE55EEB7D6 /* Build configuration list for PBXNativeTarget "Pods-CombineObjectExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9ADC8AF7EFC6C7D475D3E06BD891F15 /* Debug */,
+				CEE62ED7E37E8A3E9220A7D1973C934A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0CF4DE2F885A7E676E748F7FC95550F /* Build configuration list for PBXNativeTarget "CombineObjectObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01046929C8B03FAC4A0CDA2B6F559577 /* Debug */,
+				DE835DB3FFB55BE2B79E898131C5A8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

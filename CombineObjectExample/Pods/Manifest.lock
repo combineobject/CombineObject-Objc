@@ -1,0 +1,16 @@
+PODS:
+  - CombineObjectObjc (0.0.1)
+
+DEPENDENCIES:
+  - CombineObjectObjc (from `../`)
+
+EXTERNAL SOURCES:
+  CombineObjectObjc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CombineObjectObjc: a0ce716e93da21b63acfdb7a2769c17096d96a00
+
+PODFILE CHECKSUM: 2825be045876cf9eb77714749c63fa159d32812f
+
+COCOAPODS: 1.7.5
