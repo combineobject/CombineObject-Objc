@@ -83,25 +83,25 @@ self.displayViewBackgroundColor.bind.contentChanged = ^(id<CombineValue>  _Nonnu
 
 > 监听输入框的内容
 
-![2019-08-06 11-34-01.2019-08-06 11_34_27](images/UITextfiled.gif)
+![2019-08-06 11-34-01.2019-08-06 11_34_27](images/UITextFiled.gif)
 
 ### Example5
 
 > 监听`UISlider`值
 
-![2019-08-06 11-45-34.2019-08-06 11_45_56](images/uislider.gif)
+![2019-08-06 11-45-34.2019-08-06 11_45_56](images/UISlider.gif)
 
 ### Example6
 
 > 监听`UISwitch`的状态
 
-![2019-08-06 11-55-15.2019-08-06 11_55_32](images/uiswitch.gif)
+![2019-08-06 11-55-15.2019-08-06 11_55_32](images/UISwitch.gif)
 
 ### Example6
 
 > 监听`UItextView`值变化
 
-![2019-08-06 12-07-29.2019-08-06 12_07_49](images/uitextview.gif)
+![2019-08-06 12-07-29.2019-08-06 12_07_49](images/UItextView.gif)
 
 ## 接口文档
 
