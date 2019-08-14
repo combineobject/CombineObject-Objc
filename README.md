@@ -2,6 +2,12 @@
 
 `CombineObject` 响应式框架 `Objective-C` 版本, `Value` 和 `View` 相互绑定。
 
+⚠️⚠️⚠️如果使用`NSString` 请使用`mutableCopy`,可以参考 `NSString`内存问题。
+
+```objc
+[@"" mutableCopy]
+```
+
 ![image-20190806101237397](images/image-20190806101237397.png)
 
 ## 安装
